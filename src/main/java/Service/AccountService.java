@@ -10,16 +10,6 @@ public class AccountService {
         dao=d;
     }
     
-/*
- - The registration will be successful if and only if the username is not blank,
- the password is at least 4 characters long,
- and an Account with that username does not already exist.
- 
- If all these conditions are met, the response body should contain a JSON of the Account,
- including its account_id.
- 
- The response status should be 200 OK, which is the default. The new account should be persisted to the database.
- */
     public Account createUser(Account account){
         String user=account.getUsername();
         String pass=account.getPassword();
