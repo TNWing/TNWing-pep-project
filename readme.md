@@ -7,8 +7,10 @@
 * Javalin - version 5.0.1
 
 ## Features
-* User Registration and Login Handlers
-* Message creation, modification, and deletion
+* User Registration and Login Handlers.
+* Message creation, modification, and deletion.
+* Retrieving messages from a given account.
+* Retrieving a specific message.
 
 ## Getting Started
 
